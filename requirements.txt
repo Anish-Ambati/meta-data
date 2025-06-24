@@ -1,0 +1,16 @@
+requirements_content = """
+streamlit
+PyPDF2
+python-docx
+pytesseract
+Pillow
+spacy
+scikit-learn
+# Add other dependencies if necessary
+"""
+
+with open("requirements.txt", "w") as f:
+    f.write(requirements_content)
+
+print("app.py and requirements.txt created.")
+print("\nTo deploy, you would typically push these files to a GitHub repository and use a platform like Streamlit Cloud.")
